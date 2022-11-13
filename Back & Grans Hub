@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Back & Grans Hub 1.0.1", "DarkTheme")
+local Window = Library.CreateLib("Back & Grans Hub 1.0.2", "DarkTheme")
 
 
     -- MAIN
