@@ -31,6 +31,7 @@ ScriptsSection:NewButton("Doors", "...", function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Darkrai-X/main/Games/Doors"))()
 
     end)
+local ScriptsSection = Scripts:NewSection("Combat Warriors")
 
 ScriptsSection:NewButton("Combat Warriors", "...", function()
          loadstring(game:HttpGet("https://raw.githubusercontent.com/1f0yt/community/master/novahub"))()
@@ -38,6 +39,16 @@ ScriptsSection:NewButton("Combat Warriors", "...", function()
 
 
     end)
+ScriptsSection:NewButton("Combat Warriors Auto Parry", "...", function()
+         loadstring(game:HttpGet("https://pastebin.com/raw/jkjX21VF"))()
+
+
+    end)
+
+
+
+
+local ScriptsSection = Scripts:NewSection("ta jogando limpo ne")
 
 ScriptsSection:NewButton("Arsenal", "...", function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Darkrai-X/main/Games/Arsenal/MainFile"))()
@@ -51,6 +62,17 @@ ScriptsSection:NewButton("Tower of Hell", "...", function()
 ScriptsSection:NewButton("Da Hood Aimlock", "...", function()
          loadstring(game:HttpGet("https://pastebin.com/raw/Ng2UCUiC"))()
     end)
+
+ScriptsSection:NewButton("teste", "...", function()
+         local function notify(Type, Title, Content)
+   --Boa tarde
+end
+
+
+
+    end)
+
+
 
 
     --Other
