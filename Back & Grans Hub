@@ -1,0 +1,65 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Back & Grans Hub 1.0.1", "DarkTheme")
+
+
+    -- MAIN
+    local Scripts = Window:NewTab("Scripts")
+    local ScriptsSection = Scripts:NewSection("Scripts")
+
+
+    ScriptsSection:NewButton("Build a Boat for Treasure Construção", "...", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/StenDirt/Trash-Game/main/Script.lua"))()
+    end)
+
+
+
+    ScriptsSection:NewButton("Infinite Yield", "Admin Básico", function()
+        loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+    end)
+
+    
+    ScriptsSection:NewButton("Breaking Point", "...", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ColdStep2/Breaking-Point-Funny-Squid-Hax/main/Breaking%20Point%20Funny%20Squid%20Hax",true))();
+    end)
+
+    ScriptsSection:NewButton("Evade", "...", function()
+       
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Darkrai-X/main/Games/Evade"))()
+    end)
+
+ScriptsSection:NewButton("Doors", "...", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Darkrai-X/main/Games/Doors"))()
+
+    end)
+
+ScriptsSection:NewButton("Combat Warriors", "...", function()
+         loadstring(game:HttpGet("https://raw.githubusercontent.com/1f0yt/community/master/novahub"))()
+
+
+
+    end)
+
+ScriptsSection:NewButton("Arsenal", "...", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Darkrai-X/main/Games/Arsenal"))()
+
+    end)
+
+    --Other
+    local Outro = Window:NewTab("Outro")
+    local OutroSection = Outro:NewSection("Outro")
+
+    OutroSection:NewButton("Fly", "Voa mlk", function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/EgDPyig8"))() 
+
+        Fly(true)
+    end)
+
+        OutroSection:NewButton("Aimbot", "ta mirando em", function()
+         loadstring(game:HttpGet("https://pastebin.com/raw/1Gp9c57U"))()
+
+    end)
+
+    OutroSection:NewButton("Teclado", "...", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
+
+    end)
