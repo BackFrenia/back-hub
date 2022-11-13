@@ -4,14 +4,23 @@ local Window = Library.CreateLib("Back & Grans Hub 1.0.3", "DarkTheme")
 
     -- MAIN
     local Scripts = Window:NewTab("Scripts")
-    local ScriptsSection = Scripts:NewSection("ta jogando limpo ne")
+    local ScriptsSection = Scripts:NewSection("Build a Boat for Treasure")
 
 
     ScriptsSection:NewButton("Build a Boat for Treasure Construção", "...", function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/StenDirt/Trash-Game/main/Script.lua"))()
     end)
+local ScriptsSection = Scripts:NewSection("ta jogando limpo ne")
 
 
+    ScriptsSection:NewButton("Build a Boat for Treasure", "...", function()
+        
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/XRoLLu/UWU/main/BUILD%20A%20BOAT%20FOR%20TREASURE.lua'))()
+
+
+    end)
+
+local ScriptsSection = Scripts:NewSection("ta jogando limpo ne")
 
     ScriptsSection:NewButton("Infinite Yield", "Admin Básico", function()
         loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
@@ -62,6 +71,11 @@ ScriptsSection:NewButton("Tower of Hell", "...", function()
 ScriptsSection:NewButton("Da Hood Aimlock", "...", function()
          loadstring(game:HttpGet("https://pastebin.com/raw/Ng2UCUiC"))()
     end)
+
+ScriptsSection:NewButton("Westbound", "...", function()
+         loadstring(game:HttpGet("https://pastebin.com/raw/kJr7NZrN"))()
+    end)
+
 
 ScriptsSection:NewButton("teste", "...", function()
          local function notify(Type, Title, Content)
