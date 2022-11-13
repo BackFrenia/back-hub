@@ -1,3 +1,13 @@
+wait(2)
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "Back & Grans Hub";
+ Text = "Bom dia meu caro";
+ Icon = "";
+ Duration = 25;
+ Button1 = "Bom dia";
+ Button2 = "Boa tarde";
+})
+
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("Back & Grans Hub 1.0.3", "DarkTheme")
 
@@ -73,8 +83,10 @@ ScriptsSection:NewButton("Da Hood Aimlock", "...", function()
 
 ScriptsSection:NewButton("Westbound", "...", function()
          loadstring(game:HttpGet("https://pastebin.com/kJr7NZrN"))()
-  
 
+    end)
+ScriptsSection:NewButton("Starving Artists", "...", function()
+         loadstring(game:HttpGet("https://raw.githubusercontent.com/Jeux45/Starving-Artist-script/main/Script", true))()
 
     end)
 
