@@ -10,7 +10,6 @@ local Window = Library.CreateLib("Back & Grans Hub 1.0.3", "DarkTheme")
     ScriptsSection:NewButton("Build a Boat for Treasure Construção", "...", function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/StenDirt/Trash-Game/main/Script.lua"))()
     end)
-local ScriptsSection = Scripts:NewSection("ta jogando limpo ne")
 
 
     ScriptsSection:NewButton("Build a Boat for Treasure", "...", function()
@@ -73,7 +72,7 @@ ScriptsSection:NewButton("Da Hood Aimlock", "...", function()
     end)
 
 ScriptsSection:NewButton("Westbound", "...", function()
-         loadstring(game:HttpGet("https://pastebin.com/raw/kJr7NZrN"))()
+         loadstring(game:HttpGet("https://pastebin.com/kJr7NZrN"))()
     end)
 
 
