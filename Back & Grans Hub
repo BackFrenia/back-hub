@@ -75,6 +75,10 @@ ScriptsSection:NewButton("Starving Artists", "...", function()
 
     end)
 
+ScriptsSection:NewButton("Starving Artists", "...", function()
+         loadstring(game:HttpGet("https://raw.githubusercontent.com/aidanlolol/MainScript/main/ChaosScriptVersionTwoPointOne.lua"))()
+
+    end)
 
 
 
@@ -93,7 +97,12 @@ ScriptsSection:NewButton("Starving Artists", "...", function()
 
     end)
 
-    OutroSection:NewButton("Teclado", "...", function()
+    OutroSection:NewButton("backdoor.exe", "...", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/iK4oS/backdoor.exe/v6x/source.lua"))()
+
+    end)
+
+  OutroSection:NewButton("Teclado", "...", function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
 
     end)
