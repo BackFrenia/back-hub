@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Back & Grans Hub 1.0.3", "DarkTheme")
+local Window = Library.CreateLib("Back & Grans Hub 1.0.4", "DarkTheme")
 
 
     -- MAIN
@@ -97,3 +97,97 @@ ScriptsSection:NewButton("Starving Artists", "...", function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
 
     end)
+
+local BossSurvival = Window:NewTab("BossSurvival")
+    local BossSurvivalSection = BossSurvival:NewSection("PRECISA USAR O COMANDO "rspy" DO INFINITE YIELD")
+
+BossSurvivalSection:NewButton("Corruption Dragon", "...", function()
+       
+local args = {
+    [1] = "Corruption Dragon",
+    [2] = true
+}
+
+game:GetService("ReplicatedStorage").Badge:FireServer(unpack(args))
+
+    end)
+
+BossSurvivalSection:NewButton("Fossil Menace", "...", function()
+       
+local args = {
+    [1] = "Fossil Menace",
+    [2] = true
+}
+
+game:GetService("ReplicatedStorage").Badge:FireServer(unpack(args))
+
+    end)
+
+BossSurvivalSection:NewButton("Ghost Dragon", "...", function()
+       
+local args = {
+    [1] = "Ghost Dragon",
+    [2] = true
+}
+
+game:GetService("ReplicatedStorage").Badge:FireServer(unpack(args))
+
+    end)
+
+BossSurvivalSection:NewButton("Shadow Dragon", "...", function()
+       
+local args = {
+    [1] = "Shadow Dragon",
+    [2] = true
+}
+
+game:GetService("ReplicatedStorage").Badge:FireServer(unpack(args))
+
+    end)
+
+BossSurvivalSection:NewButton("Default Dragon", "...", function()
+       
+local args = {
+    [1] = "Default Dragon",
+    [2] = true
+}
+
+game:GetService("ReplicatedStorage").Badge:FireServer(unpack(args))
+
+    end)
+
+BossSurvivalSection:NewButton("Ruby Scythe", "...", function()
+       
+local args = {
+    [1] = "Ruby Scythe",
+    [2] = true
+}
+
+game:GetService("ReplicatedStorage").Badge:FireServer(unpack(args))
+
+    end)
+
+BossSurvivalSection:NewButton("Shadow Mech", "...", function()
+       
+local args = {
+    [1] = "Shadow Mech",
+    [2] = true
+}
+
+game:GetService("ReplicatedStorage").Badge:FireServer(unpack(args))
+
+    end)
+
+BossSurvivalSection:NewButton("Walking Castle Mech", "...", function()
+       
+local args = {
+    [1] = "Walking Castle Mech",
+    [2] = true
+}
+
+game:GetService("ReplicatedStorage").Badge:FireServer(unpack(args))
+
+    end)
+
+
+
