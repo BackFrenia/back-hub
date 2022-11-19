@@ -42,7 +42,7 @@ ScriptsSection:NewButton("Doors", "...", function()
 local ScriptsSection = Scripts:NewSection("Combat Warriors")
 
 ScriptsSection:NewButton("Combat Warriors", "...", function()
-         loadstring(game:HttpGet("https://raw.githubusercontent.com/1f0yt/community/master/novahub"))()
+         loadstring(game:HttpGet("https://raw.githubusercontent.com/SussyImposterRed/Scripts/main/NOVA_HUB_SOURCE"))()
 
     end)
 ScriptsSection:NewButton("Combat Warriors Auto Parry", "...", function()
