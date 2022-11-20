@@ -61,9 +61,19 @@ ScriptsSection:NewButton("Tower of Hell", "...", function()
          loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/scripts/main/TOH", true))()
 
     end)
+
+local ScriptsSection = Scripts:NewSection("Da Hood")
+
+ScriptsSection:NewButton("Arsenal", "...", function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002'))()
+
+    end)
+
 ScriptsSection:NewButton("Da Hood Aimlock", "...", function()
          loadstring(game:HttpGet("https://pastebin.com/raw/Ng2UCUiC"))()
     end)
+
+local ScriptsSection = Scripts:NewSection("ta jogando limpo ne")
 
 ScriptsSection:NewButton("Westbound", "...", function()
          loadstring(game:HttpGet("https://pastebin.com/kJr7NZrN"))()
@@ -104,6 +114,10 @@ ScriptsSection:NewButton("Chaos", "...", function()
 
   OutroSection:NewButton("Teclado", "...", function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
+
+    end)
+ OutroSection:NewButton("Mudar Animação", "...", function()
+        loadstring(game:HttpGet("https://cdn.discordapp.com/attachments/1016359889246879802/1039819753402941460/Protected.lua",true))()
 
     end)
 -- Gui to Lua
