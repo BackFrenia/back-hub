@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Back & Grans Hub 1.0.4", "DarkTheme")
+local Window = Library.CreateLib("Back & Grans Hub 1.0.5", "DarkTheme")
 
 
     -- MAIN
@@ -64,7 +64,7 @@ ScriptsSection:NewButton("Tower of Hell", "...", function()
 
 local ScriptsSection = Scripts:NewSection("Da Hood")
 
-ScriptsSection:NewButton("Arsenal", "...", function()
+ScriptsSection:NewButton("Da Hood", "...", function()
         loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002'))()
 
     end)
