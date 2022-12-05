@@ -117,7 +117,7 @@ ScriptsSection:NewButton("Chaos", "...", function()
 
     end)
  OutroSection:NewButton("Mudar Animação", "...", function()
-        loadstring(game:HttpGet("https://cdn.discordapp.com/attachments/1016359889246879802/1039819753402941460/Protected.lua",true))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Animation-Hub/main/Animation%20Gui", true))()
 
     end)
 -- Gui to Lua
